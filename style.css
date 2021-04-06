@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body {
+    font-family: 'Staatliches','VT323','Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://i.imgur.com/oiEnpbY.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 98vh;
+  } 
+  .titulo {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(180, 158, 128, 0.911);
+    border: solid 5px rgba(43, 27, 5, 0.705);
+    width: 50%;
+    margin-left: 23%;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  .tabela{
+      background-color: antiquewhite;
+      border: solid 9px rgba(43, 27, 5, 0.897);
+      border-radius: 5px;
+  }
+  .th_Colunas{
+      border: solid 5px black;
+      font-size: 25px;
+  }
+  td{
+      font-size: 20px;
+      height: 50px;
+  }
+  .buttonActions{
+      width: 100px;
+      font-family: 'VT323';
+      font-size: 20px;
+      background-color:rgba(180, 158, 128, 0.911);
+      border: solid 3px rgba(43, 27, 5, 0.705);
+      border-radius: 3px;
+  }
+  .avatares{
+         width: 50px;
+        height: 50px;
+  }
+  .addPlayer{
+
+    margin:auto;
+  }
+  #buttonAdd{
+    background-color: rgba(221, 113, 24, 0.815);
+    height: 50px;
+    width: 375px;
+    border: solid 5px black;
+    border-radius: 7px;
+    font-family: 'Staatliches','VT323','Roboto Mono',monospace;
+    font-size: 30px;
+
+  }
+  th{
+      height: 50px;
+  }
+  .addPlayer{
+    background-color: rgba(180, 158, 128, 0.911);
+    border: solid 5px rgba(43, 27, 5, 0.705);
+  }
+  input{
+      height: 25px;
+      border: solid 2px rgba(43, 27, 5, 0.705);
+      background-color: aliceblue;
+  }
+  .input{
+      padding-left: 10px;
+  }
+  #adicionar{
+      height: 30px;
+      font-family: 'Staatliches','VT323','Roboto Mono',monospace;
+      width: 200px;
+      font-size: 20px;
+  }
